@@ -1,0 +1,217 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html>
+
+<header>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="material/css/web.css" />
+	<link rel="stylesheet" href="material/fonts/fontawesome-free-6.0.0-web/css/all.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+	<style>
+	/* Style the tab */
+	.tab {
+	  overflow: hidden;
+	  /* border: 1px solid #ccc; */
+	  background-color: #f1f1f1;
+		align-items: center;
+	}
+
+	/* Style the buttons inside the tab */
+	.tab button {
+	  background-color: inherit;
+	  float: left;
+	  border: none;
+	  outline: none;
+	  cursor: pointer;
+	  padding: 14px 16px;
+	  transition: 0.3s;
+	  font-size: 17px;
+	}
+
+	/* Change background color of buttons on hover */
+	.tab button:hover {
+	  background-color: #ddd;
+		color: #5AAEF7;
+
+	}
+
+	/* Create an active/current tablink class */
+	.tab button.active {
+	  background-color: #ccc;
+		/* color: #5AAEF7; */
+
+	}
+
+	/* Style the tab content */
+	.tabcontent {
+	  display: none;
+	  padding: 6px 12px;
+	  /* border: 1px solid #ccc; */
+	  border-top: none;
+	}
+	</style>
+
+
+
+	</div>
+	<div class="nav">
+		<ul class="nav-link">
+
+			<li><a href="home.html">
+				<div class="svg-wrapper">
+				<svg height="60" width="140" xmlns="http://www.w3.org/2000/svg">
+					<rect class="shape" height="60" width="140" />
+				</svg>
+				 <div class="text">About me</div>
+			</div>
+			</a></li>
+
+			<li><a href="research.html">
+				<div class="svg-wrapper">
+				<svg height="60" width="140" xmlns="http://www.w3.org/2000/svg">
+					<rect class="shape" height="60" width="140" />
+				</svg>
+				 <div class="text">Research</div>
+				</div>
+				</a></li>
+
+				<li><a href="development.html">
+					<div class="svg-wrapper">
+					<svg height="60" width="140" xmlns="http://www.w3.org/2000/svg">
+						<rect class="shape" height="60" width="140" />
+					</svg>
+					 <div class="text">R&D</div>
+				</div>
+				</a></li>
+
+				<li><a href="quantum.html">
+					<div class="svg-wrapper">
+					<svg height="60" width="140" xmlns="http://www.w3.org/2000/svg">
+						<rect class="shape" height="60" width="140" />
+					</svg>
+					 <div class="text">Quantum</div>
+				</div>
+				</a></li>
+
+			<li><a href="publications.html">
+				<div class="svg-wrapper">
+				<svg height="60" width="140" xmlns="http://www.w3.org/2000/svg">
+					<rect class="shape" height="60" width="140" />
+				</svg>
+				 <div class="text">Publications</div>
+			</div>
+			</a></li>
+
+			<li><a href="references.html">
+				<div class="svg-wrapper">
+				<svg height="60" width="140" xmlns="http://www.w3.org/2000/svg">
+					<rect class="shape" height="60" width="140" />
+				</svg>
+				 <div class="text">References</div>
+			</div>
+			</a></li>
+
+		</ul>
+	</div>
+
+</header>
+
+
+<div class="content">
+
+	<h1>Research and development: Remote Sensing</h1>
+	<p>
+		Upon my return in Greece I worked as an optical engineer and applied scientist in a collaborative framework
+		between the National Observatory of Athens (NOA) and the high-tech, Athens-based
+		Raymetrics where I lead the development of a High-Spectral Resolution
+		Lidar and I assisted the NOA scientific team in the development of novel Depolarization
+		measurements of aerosol in the atmosphere (eVe project).
+	</p>
+
+
+
+	<div class="tab">
+	  <button class="tablinks" onclick="openCity(event, 'HSRL')">High Spectral Resolution Lidar</button>
+		<button class="tablinks" onclick="openCity(event, 'eVe')">eVe</button>
+	</div>
+
+	<div id="HSRL" class="tabcontent">
+	  <div class="grid-container">
+		  <div class="grid-item1">
+	      <img src="material/docs/images/hsrl_meas.png" width='1080'  alt=hsrl_meas>
+	          <p>
+							The High Spectral Resolution Lidar uses an optical filter on the
+							reception side in order to distinguish the signal due to molecular
+							backscatter from the one which is due to aerosol backscatter.
+							The filter that may be employed to this end can be either a
+							Fabry – Perot cavity or an atomic or molecular gas cell.
+							In our case, we have opted for an Iodine gas cell. The experimental
+							challenge of this project is the fact that the laser pulse sent
+							to probe the atmosphere must have tuned to the center frequency
+							of the optical filter - in our case the frequency of the optical
+							transition. To this end, I have used my skills on laser stabilization
+							techniques and developed an active, control-loop stabilization scheme.
+
+			</div>
+	</div>
+</div>
+
+<div id="eVe" class="tabcontent">
+
+			<a href=https://amt.copernicus.org/preprints/amt-2021-268/amt-2021-268.pdf><strong>
+			The eVe reference polarisation lidar system for Cal/Val of Aeolus L2A product. </strong>
+		 </a>
+			<br>Paschou, P., Siomos, N., Tsekeri, A., Louridas, A., Georgoussis, G.,
+			Freudenthaler, V., Binietoglou, I., Tsaknakis, G., Tavernarakis, A.,
+			Evangelatos, C., von Bismarck, J., Kanitz, T., Meleti, C., Marinou, E.,
+			and Amiridis, V.
+			<br>Atmos. Meas. Tech. Discuss.  [preprint], https://doi.org/10.5194/amt-2021-268, in review, 2021.
+			<br><br>
+
+
+			<p>
+				 The eVe dual-laser/dual-telescope lidar system is briefly given here, focusing on the optical and mechanical parts of system’s emission and receiver units. The compact design of linear/circular emission unit along with the linear/circular analyser in the receiver unit, allows eVe to simultaneously reproduce the operation of the ALADIN lidar on board Aeolus as well as the operation of a traditional ground-based polarisation lidar system with linear emission. As such, eVe lidar aims to provide: (a) ground reference measurements for the validation of the Aeolus L2A aerosol products, and (b) the atmospheric conditions for which linear polarisation lidar systems can be considered for Aeolus L2A validation, by identifying any possible biases arisen from the different polarisation state in the emission between ALADIN and these systems, and the detection of only the co-polar component of the returned signal from ALADIN for the L2A products retrieval. In addition, a brief description is given concerning the polarisation calibration techniques that are applied in the system, as well as the developed software for the analysis of the collected signals and the retrieval of the optical products. More specifically, the system’s dual configuration enables the retrieval of the optical properties of particle backscatter and extinction coefficients originating from the two different polarisation states of the emission, the linear and circular depolarisation ratios, as well as the direct calculation of the Aeolus like backscatter coefficient, i.e., the backscatter coefficient that Aeolus would measure from ground. Two cases, one with slightly-depolarising particles and one with moderately-depolarising particles, were selected from the first conducted measurements of eVe in Athens, in order to give a glimpse of the system’s capabilities. In the slightly depolarising scene, the Aeolus like backscatter coefficient agrees well with the actual backscatter coefficient, which is also true when non-depolarising particles are present. The agreement however fades out for strongly depolarising scenes, where an underestimation of ~17 % of the Aeolus like backscatter coefficient is observed when moderately-depolarising particles are probed.
+			</p>
+</div>
+
+	<script>
+	function openCity(evt, cityName) {
+	  var i, tabcontent, tablinks;
+	  tabcontent = document.getElementsByClassName("tabcontent");
+	  for (i = 0; i < tabcontent.length; i++) {
+	    tabcontent[i].style.display = "none";
+	  }
+	  tablinks = document.getElementsByClassName("tablinks");
+	  for (i = 0; i < tablinks.length; i++) {
+	    tablinks[i].className = tablinks[i].className.replace(" active", "");
+	  }
+	  document.getElementById(cityName).style.display = "block";
+	  evt.currentTarget.className += " active";
+	}
+	</script>
+
+
+
+
+	<footer>
+		<div class="footer-content">
+			<h5> Disclaimer</h5>
+			<p> This is a minimal HTML-CSS website realised as a part of the first
+				assignement for the course Data Visualization offered in the framework of
+			 	NKUA's master program "Big Data and Artificial Intelligence. It will serve
+				as an alternative and online CV. </p>
+				<ul class="socials">
+						<li><a href="https://www.google.com/url?q=https%3A%2F%2Fscholar.google.es%2Fcitations%3Fuser%3Dd6MAMkkAAAAJ%26hl%3Des%26oi%3Dao&sa=D">
+							<i class="fa-brands fa-google"></i></a></li>
+						<li><a href="https://www.google.com/url?q=http%3A%2F%2Forcid.org%2F0000-0002-9780-2514&sa=D">
+							<i class="fa-brands fa-orcid"></i></a></li>
+						<li><a href="https://www.google.com/url?q=https%3A%2F%2Fwww.researchgate.net%2Fprofile%2FAlexandros_Tavernarakis&sa=D">
+							<i class="fa-brands fa-researchgate"></i></a></li>
+						<li><a href="https://www.google.com/url?q=https%3A%2F%2Fes.linkedin.com%2Fin%2Falextav&sa=D">
+							<i class="fa-brands fa-linkedin"></i></a></li>
+				</ul>
+		</div>
+	</footer>
+</html>
